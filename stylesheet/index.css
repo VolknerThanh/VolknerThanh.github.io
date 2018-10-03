@@ -76,7 +76,41 @@ body{
 	font-weight: 900;
 	font-family: 'Chakra Petch', sans-serif;
 }
+.image-container{
+	position: relative;
+	min-height: 800px;
+}
+.image-container h5{
+	text-align: center;
+	font-weight: 900;
+	font-family: "Oswald", sans-serif;
+}
 .img-icon{
-	width: 250px;
-	height: 250px;
+	width: 120px;
+	height: 120px;
+}
+#is_admin{
+	position: absolute;
+	top: 1%;
+	left: 10%;
+}
+#is_ketoan{
+	position: absolute;
+	top: 1%;
+	left: 40%;
+}
+#is_thukho{
+	position: absolute;
+	top: 1%;
+	left: 65%;
+}
+#is_nvbh{
+	position: absolute;
+	top: 38%;
+	left: 40%;
+}
+#is_khachhang{
+	position: absolute;
+	top: 75%;
+	left: 40%;
 }
