@@ -53,12 +53,15 @@ body{
 .content-wrapper{
 	min-height: 800px;
 }
-#_module{
-	
+#_module a{
+	color: inherit;
+	text-decoration: none;
 }
 .title{
 	text-align: center;
 	font-family: 'Niramit', sans-serif;
+	font-weight: 900;
+	padding-top: 50px;
 	text-transform: uppercase;
 }
 .box{
