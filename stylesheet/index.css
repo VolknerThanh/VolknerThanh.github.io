@@ -178,6 +178,10 @@ body{
 	top: 50%;
 	left: 70%;
 }
+.disappear{
+	display: none;
+}
+
 #_stock{
 	top: 5%;
 	left: 60%;
@@ -264,4 +268,32 @@ body{
 	font-weight: 900;
 	font-size: 40px;
 	font-family: "Dancing Script", sans-serif;
+}
+#play_animate{
+	display: none;
+	position: fixed;
+	top: 55%;
+	left: 95%;
+}
+#play_animate #forward{
+	width: 0; 
+  height: 0;
+  position: absolute;
+  left: 30px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-left: 20px solid lightblue;
+  cursor: pointer;
+  user-select: none;
+}
+#play_animate #backward{
+  position: absolute;
+  left: -30px;
+	width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-right: 20px solid lightblue;
+  cursor: pointer;
+  user-select: none;	
 }
