@@ -126,6 +126,11 @@ body{
 	top: 70%;
 	left: 12%;
 }
+#is_khachhang{
+	position: absolute;
+	top: 85%;
+	left: 48%;
+}
 .icon-size-100{
 	font-size: 100px;
 }
@@ -184,50 +189,61 @@ body{
 	left: 62%;
 }
 
-#arrow_1{
+#arrow_1, #arrow_2,#arrow_3, #arrow_4,#arrow_5, #arrow_6,#arrow_7, #arrow_8,#arrow_9, #arrow_10,#arrow_11{
 	position: absolute;
+}
+#arrow_1, #arrow_2, #arrow_3, #arrow_4, #arrow_9, #arrow_10, #arrow_11{
+	color: #8ba4b7;
+} 
+#arrow_1{
 	top: 30%;
 	left: 50%;
 }
 #arrow_2{
-	position: absolute;
 	top: 30%;
 	left: 42%;
 	transform: rotate(45deg);
 } 
 #arrow_3{
-	position: absolute;
 	top: 30%;
 	left: 58%;
 	transform: rotate(-45deg);
 }
 #arrow_4{
-	position: absolute;
 	top: 15%;
 	left: 30%;
 }
 #arrow_5{
-	position: absolute;
 	top:10%;
 	left:55%;
 	transform: rotate(-45deg);
 }
 #arrow_6{
-	position: absolute;
 	top: 60%;
 	left: 25%;
 	transform: rotate(-45deg);
 }
 #arrow_7{
-	position: absolute;
 	top: 60%;
 	left: 46%;
 	transform: rotate(-45deg);
 }
 #arrow_8{
-	position: absolute;
 	top: 60%;
 	left: 66%;
 	transform: rotate(-45deg);
-
+}
+#arrow_9{
+	top: 70%;
+	left: 52%;
+}
+#arrow_10{
+	top: 70%;
+	left: 68%;
+	transform: rotate(45deg);
+}
+#arrow_11{
+	top: 70%;
+	left: 35%;
+	transform: rotate(-45deg);
 }
