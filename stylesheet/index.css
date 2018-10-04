@@ -17,6 +17,9 @@ body{
 .padding-2m{
 	padding: 2em;
 }
+.padding-2m p{
+	font-size: 16px;
+}
 .softbreak{
 	min-height: 50px;
 }
