@@ -70,15 +70,17 @@ body{
 	background-color: lightblue;
 	text-align: center;
 	margin: 1em 0;
+	padding: 1em;
 }
 .box p{
 	text-transform: capitalize;
+	font-size: 20px;
 	font-weight: 900;
 	font-family: 'Chakra Petch', sans-serif;
 }
 .image-container{
 	position: relative;
-	min-height: 800px;
+	min-height: 600px;
 }
 .image-container h5{
 	text-align: center;
@@ -91,26 +93,40 @@ body{
 }
 #is_admin{
 	position: absolute;
-	top: 1%;
-	left: 10%;
+	top: 10%;
+	left: 12%;
 }
 #is_ketoan{
 	position: absolute;
-	top: 1%;
-	left: 40%;
+	top: 10%;
+	left: 42%;
 }
 #is_thukho{
 	position: absolute;
-	top: 1%;
-	left: 65%;
+	top: 10%;
+	left: 70%;
 }
 #is_nvbh{
 	position: absolute;
-	top: 38%;
-	left: 40%;
+	top: 44%;
+	left: 26%;
 }
 #is_khachhang{
 	position: absolute;
-	top: 75%;
-	left: 40%;
+	top: 44%;
+	left: 60%;
 }
+/* 
+.arrow-direction{
+	font-size: 60px;
+}
+#arrow_1{
+	position: absolute;
+	top: 25%;
+	left: 44%;
+}
+#arrow_2{
+	position: absolute;
+	top: 65%;
+	left: 44%;
+} */
