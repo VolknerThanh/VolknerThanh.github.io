@@ -253,3 +253,15 @@ body{
 	left: 35%;
 	transform: rotate(-45deg);
 }
+.img-wrapper {
+	width: 100%;	
+}
+.img-wrapper img{
+	width: 100%;
+}
+.end-title{
+	text-align: center;
+	font-weight: 900;
+	font-size: 40px;
+	font-family: "Dancing Script", sans-serif;
+}
