@@ -126,6 +126,9 @@ body{
 	top: 70%;
 	left: 12%;
 }
+.icon-size-100{
+	font-size: 100px;
+}
 .icon-size-80{
 	font-size: 80px;
 }
@@ -141,7 +144,7 @@ body{
 .chart_container{
 	min-height: 800px;
 }
-#_industry, #_npp, #_daily1, #_daily2, #_daily3{
+#_industry, #_npp, #_daily1, #_daily2, #_daily3, #_stock{
 	position: absolute;
 }
 #_industry{
@@ -150,7 +153,7 @@ body{
 }
 #_npp{
 	top: 15%;
-	left: 48%;
+	left: 49%;
 }
 #_daily1{
 	top: 50%;
@@ -164,17 +167,36 @@ body{
 	top: 50%;
 	left: 70%;
 }
-/* 
-.arrow-direction{
-	font-size: 60px;
+#_stock{
+	top: 5%;
+	left: 60%;
 }
+
 #arrow_1{
 	position: absolute;
-	top: 25%;
-	left: 44%;
+	top: 30%;
+	left: 50%;
 }
 #arrow_2{
 	position: absolute;
-	top: 65%;
-	left: 44%;
-} */
+	top: 30%;
+	left: 42%;
+	transform: rotate(45deg);
+} 
+#arrow_3{
+	position: absolute;
+	top: 30%;
+	left: 58%;
+	transform: rotate(-45deg);
+}
+#arrow_4{
+	position: absolute;
+	top: 15%;
+	left: 30%;
+}
+#arrow_5{
+	position: absolute;
+	top:10%;
+	left:55%;
+	transform: rotate(-45deg);
+}
