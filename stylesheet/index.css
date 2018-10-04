@@ -144,7 +144,7 @@ body{
 .chart_container{
 	min-height: 800px;
 }
-#_industry, #_npp, #_daily1, #_daily2, #_daily3, #_stock{
+#_industry, #_npp, #_daily1, #_daily2, #_daily3, #_stock, #_stock1, #_stock2, #_stock3{
 	position: absolute;
 }
 #_industry{
@@ -170,6 +170,18 @@ body{
 #_stock{
 	top: 5%;
 	left: 60%;
+}
+#_stock1{
+	top: 65%;
+	left: 20%;
+}
+#_stock2{
+	top: 65%;
+	left: 42%;
+}
+#_stock3{
+	top: 65%;
+	left: 62%;
 }
 
 #arrow_1{
@@ -199,4 +211,23 @@ body{
 	top:10%;
 	left:55%;
 	transform: rotate(-45deg);
+}
+#arrow_6{
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	transform: rotate(-45deg);
+}
+#arrow_7{
+	position: absolute;
+	top: 60%;
+	left: 46%;
+	transform: rotate(-45deg);
+}
+#arrow_8{
+	position: absolute;
+	top: 60%;
+	left: 66%;
+	transform: rotate(-45deg);
+
 }
