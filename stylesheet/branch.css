@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	user-select: none;
+}
+body{
+	overflow: hidden;
+}
+.DisplayFlex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.play_animate{
+	position: fixed;
+	bottom: 5%;
+	width: 100%;
+}
+.play_animate #forward, .play_animate #backward{
+  cursor: pointer;
+  user-select: none;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+	margin: 0 1.5em;
+}
+.play_animate #forward{
+  border-left: 20px solid gray;
+}
+.play_animate #backward{
+  border-right: 20px solid gray;
+}
+#myCanvas{
+}
+
+.team-mates, .branchs-name{
+	position: absolute;
+	width: 100%;
+	min-height: 900px;
+}
+.team-mates p, .branchs-name p{
+	font-weight: 700;
+	font-size: 16px;
+	position: absolute;
+}
+.team-mates p{
+	color: black;	
+}
+.team-mates p:nth-child(1){
+	top: 12%;
+	left: 55%;
+}
+.team-mates p:nth-child(2){
+	top: 12%;
+	left: 60%;
+}
+.team-mates p:nth-child(3){
+	top: 12%;
+	left: 64%;
+}
+.team-mates p:nth-child(4){
+	top: 12%;
+	left: 68.5%;
+}
+.team-mates p:nth-child(5){
+	top: 12%;
+	left: 72%;
+}
+.branchs-name p:nth-child(1){
+	color: red;
+	top: 1%;
+	left: 32%;
+}
+.branchs-name p:nth-child(2){
+	color: purple;
+	top: 3%;
+	left: 38%;
+}
+.branchs-name p:nth-child(3){
+	color: green;
+	top: 8%;
+	left: 42%;
+}
+.branchs-name p:nth-child(4){
+	color: green;
+	top: 8%;
+	left: 47%;
+}
