@@ -12,25 +12,31 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+.disappear{
+	display: none;
+}
 .play_animate{
 	position: fixed;
 	bottom: 5%;
 	width: 100%;
+	z-index: 100;
 }
 .play_animate #forward, .play_animate #backward{
   cursor: pointer;
+  position: absolute;
   user-select: none;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent; 
 	margin: 0 1.5em;
+	bottom: 10%;
 }
 .play_animate #forward{
   border-left: 20px solid gray;
+  right: 20%;
 }
 .play_animate #backward{
   border-right: 20px solid gray;
-}
-#myCanvas{
+  left: 20%;
 }
 
 .team-mates, .branchs-name{
@@ -85,4 +91,19 @@ body{
 	color: green;
 	top: 8%;
 	left: 47%;
+}
+.discriptions {
+	border: 2px solid black;
+	padding: 1em;
+	border-radius: 10px;
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	bottom: 2%;
+	left: 25%;
+	background-color: white;
+}
+.discriptions p{
+	position: absolute;
+	background-color: white;
 }

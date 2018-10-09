@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet/branch.css">
 </head>
 <body>
-	<div class="play_animate DisplayFlex">
+	<div class="play_animate">
 		<div id="backward" onclick="back()">
 		</div>
 		<div id="forward" onclick="next()">
@@ -21,22 +21,32 @@
 	</div>
 
 	<div class="branchs-name">
-		<p>Master</p>
-		<p>Dev</p>
-		<p>Dev-1</p>
-		<p>Dev-2</p>
+		<p class="disappear 2th">Master</p>
+		<p class="disappear 3th">Dev</p>
+		<p class="disappear 4th">Dev-1</p>
+		<p class="disappear 4th">Dev-2</p>
 	</div>
 
-	<div class="team-mates">
-		<p>Thành</p>
-		<p>Nam</p>
-		<p>Tuyết</p>
-		<p>Linh</p>
-		<p>Bình</p>
+	<div class="team-mates disappear 5th">
+		<p>Leader</p>
+		<p>Tester</p>
+		<p>Dev 1</p>
+		<p>Dev 2</p>
+		<p>Dev 3</p>
 	</div>
-	<canvas id="myCanvas"></canvas>
 
-	<!-- <script src="script/affect.js"></script> -->
+	<div class="discriptions disappear 2th">
+		<div>
+			<p class="disappear 2th">1. <code>master branch</code> là nhánh chính, hay còn gọi là nhánh release, chứa những commit hoàn chỉnh nhất của project, tất nhiên là <b>không được merge vào.</b></p>
+			<p class="disappear 3th">2. tiếp theo là nhánh <code>dev</code>, đây là nhánh của team lớn, chúng ta cũng <b>không được merge vào</b>, chỉ có leader mới có thể tạo <code>pull request</code> và chờ accept từ giáo viên để merge vào.</p>
+			<p class="disappear 4th">3. <code>dev-1</code>, <code>dev-2</code> là các <b>nhánh chính</b> của các team nhỏ, mọi thành viên trong team sẽ work trên nhánh này, sau đó teamleader sẽ gửi <code>pull request</code> để merge nhánh này vào nhánh <code>dev</code>.</p>
+			<p class="disappear 5th">4. cuối cùng là các thành viên tự tạo nhánh để làm module mình được giao, <b>không làm trực tiếp vào nhánh</b> <code>dev-...</code>, sau khi xong module hoặc cần merge vào nhánh <code>dev-...</code>, hãy tạo <code>pull-request</code> cho nhóm trưởng và 2 3 thành viên còn lại, nếu 2/3 người accept, nhánh sẽ được merge.</p>
+		</div>
+	</div>
+
+	<div class="disappear 1th"> <canvas id="myCanvas"></canvas></div>
+
 	<script src="script/canvas.js"></script>
+	<script src="script/affects.js"></script>
 </body>
 </html>
