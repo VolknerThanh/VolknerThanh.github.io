@@ -48,5 +48,13 @@
 
 	<script src="script/canvas.js"></script>
 	<script src="script/affects.js"></script>
+	<script>
+		$(document).ready(function() {
+			window.addEventListener("keydown", function (event) {
+				if(event.which == 39) next();
+				else if(event.which == 37) back();
+			});
+		});
+	</script>
 </body>
 </html>
